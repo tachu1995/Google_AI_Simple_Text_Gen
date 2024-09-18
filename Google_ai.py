@@ -2,7 +2,7 @@ import google.generativeai as genai
 
 
 def text_only_gen(promt):
-    genai.configure(api_key="AIzaSyAc8RGnoFmSTMFcDuPXLTjtZJuDqS5QBCM")
+    genai.configure(api_key="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(promt)
     print(response.text)
